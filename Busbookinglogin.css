@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url('logregpic.jpg');
+    background-size: cover;
+}
+
+table {
+    background-color: rgba(85, 52, 234, 0.5);
+    width: 30%;
+    margin-left: 50%;
+    margin-top: 8%;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.text {
+    color: white;
+    padding: 2px;
+}
+
+.texttwo {
+    color: white;
+    padding: 20px;
+}
+
+
+.linkpage {
+    text-decoration: none;
+    color: rgb(27, 228, 0);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 800;
+    background-color: blue;
+}
+
+.linkpage:hover {
+    font-size: larger;
+    color: blue;
+    font-family: cursive;
+    font-weight: 800;
+    background-color: rgb(27, 228, 0);
+}
+
+
+.linkpagetwo {
+    text-decoration: none;
+    color: red;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 800;
+    background-color: rgb(226, 183, 43);
+}
+
+.linkpagetwo:hover {
+    text-decoration: none;
+    color: rgb(226, 183, 43);
+    font-family: cursive;
+    font-weight: 800;
+    background-color: red;
+}
+
+th {
+    padding: 5%;
+}
+
+.my_class {
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 5%;
+}
+
+.my_btn {
+    padding: 10px;
+    cursor: pointer;
+    background-color: rgb(146, 214, 79);
+    color: whitesmoke;
+    border-color: red;
+    border-radius: 15px;
+    /* border: solid; */
+    font-size: 20px;
+    margin-bottom: 5%;
+    text-decoration: none;
+    margin-left: 40%;
+    font-family: cursive;
+    font-weight: bolder;
+}
+
+.my_btn:hover {
+    border-color: yellow;
+    background-color: blue;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: larger;
+    font-weight: bolder;
+    font-style: italic;
+    color: greenyellow;
+}
+
+.home a {
+    text-decoration: none;
+    color: whitesmoke;
+    margin-left: 44%;
+    font-size: larger;
+}
+
+.home:hover {
+    font-weight: bolder;
+    color: rgb(221, 2, 2);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
